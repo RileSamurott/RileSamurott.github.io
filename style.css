@@ -6,3 +6,11 @@ body {
 p {
 	left-margin: "10px";
 }
+#gay {
+	color: yellow;
+}
+
+.flex-container {
+	display: flex;
+	height: 300px;
+}
