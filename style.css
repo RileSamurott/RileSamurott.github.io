@@ -12,5 +12,20 @@ p {
 
 .flex-container {
 	display: flex;
-	height: 300px;
+	height: 100px;
+	transition: 0.5s;
+}
+
+.flex-container:hover .flexint {
+	margin:0px;
+	transition:0.5s;
+}
+
+.flex-container .flexint {
+	margin: 10px;
+	transition: 0.5s;
+}
+
+button {
+	
 }
